@@ -111,6 +111,7 @@ resource "aws_security_group" "websg" {
     cidr_blocks = var.allowed_all_cidr
   }
   tags = local.common_tags
+}
 
 # Creating Ec2-instance with the VPC  
 
